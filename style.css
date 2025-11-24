@@ -201,10 +201,6 @@ main p {
     justify-content: center;
     padding: 0;
     margin: 0;
-    /* margin-top: 24px;
-    margin-bottom: 28px;
-    margin-left: 95px;
-    margin-right: 95px; */
     gap: 30px;
 }
 
@@ -235,10 +231,52 @@ footer {
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding: 10px;
 }
 
 footer p {
     justify-content: center;
     color: #9C9C9C;
     font-size: 14px;
+}
+
+/* Mobile styles */
+@media(max-width: 900px) {
+
+    .left-part {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .words {
+        margin: 0%;
+    }
+
+    .button {
+        margin-top: 20px;
+    }
+
+    .logos-lower ul {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .social-media div {
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .middle {
+        margin: auto;
+        padding: 20px;
+    }
 }
